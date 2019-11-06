@@ -1,0 +1,263 @@
+
+**** Clean-only build of configuration Debug for project DCAN_RX ****
+
+/home/abdelgawad/ti/ccs920/ccs/utils/bin/gmake -k -j 4 clean -O 
+ 
+rm -rf  "DCAN_RX.hex"  "DCAN_RX.out" 
+rm -rf "source/can.obj" "source/dabort.obj" "source/errata_SSWF021_45.obj" "source/esm.obj" "source/notification.obj" "source/pinmux.obj" "source/sci.obj" "source/sys_core.obj" "source/sys_dma.obj" "source/sys_intvecs.obj" "source/sys_main.obj" "source/sys_mpu.obj" "source/sys_pcr.obj" "source/sys_phantom.obj" "source/sys_pmm.obj" "source/sys_pmu.obj" "source/sys_selftest.obj" "source/sys_startup.obj" "source/sys_vim.obj" "source/system.obj" 
+rm -rf "source/can.d" "source/errata_SSWF021_45.d" "source/esm.d" "source/notification.d" "source/pinmux.d" "source/sci.d" "source/sys_dma.d" "source/sys_main.d" "source/sys_pcr.d" "source/sys_phantom.d" "source/sys_pmm.d" "source/sys_selftest.d" "source/sys_startup.d" "source/sys_vim.d" "source/system.d" 
+rm -rf "source/dabort.d" "source/sys_core.d" "source/sys_intvecs.d" "source/sys_mpu.d" "source/sys_pmu.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCAN_RX ****
+
+/home/abdelgawad/ti/ccs920/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../source/dabort.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/errata_SSWF021_45.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/errata_SSWF021_45.d_raw" --obj_directory="source"  "../source/errata_SSWF021_45.c"
+Finished building: "../source/errata_SSWF021_45.c"
+ 
+Building file: "../source/can.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+Finished building: "../source/can.c"
+ 
+Building file: "../source/esm.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/notification.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/pinmux.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/sys_mpu.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sci.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sci.d_raw" --obj_directory="source"  "../source/sci.c"
+Finished building: "../source/sci.c"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/system.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_RX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building target: "DCAN_RX.out"
+Invoking: ARM Linker
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -me -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"DCAN_RX.map" --heap_size=0x800 --stack_size=0x800 -i"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/lib" -i"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DCAN_RX_linkInfo.xml" --rom_model -o "DCAN_RX.out" "./source/can.obj" "./source/dabort.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/sci.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_le_v3D16_eabi.lib 
+<Linking>
+Finished building target: "DCAN_RX.out"
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project DCAN_TX ****
+
+/home/abdelgawad/ti/ccs920/ccs/utils/bin/gmake -k -j 4 clean -O 
+ 
+rm -rf  "DCAN_TX.hex"  "DCAN_TX.out" 
+rm -rf "source/can.obj" "source/dabort.obj" "source/errata_SSWF021_45.obj" "source/esm.obj" "source/notification.obj" "source/pinmux.obj" "source/sys_core.obj" "source/sys_dma.obj" "source/sys_intvecs.obj" "source/sys_main.obj" "source/sys_mpu.obj" "source/sys_pcr.obj" "source/sys_phantom.obj" "source/sys_pmm.obj" "source/sys_pmu.obj" "source/sys_selftest.obj" "source/sys_startup.obj" "source/sys_vim.obj" "source/system.obj" 
+rm -rf "source/can.d" "source/errata_SSWF021_45.d" "source/esm.d" "source/notification.d" "source/pinmux.d" "source/sys_dma.d" "source/sys_main.d" "source/sys_pcr.d" "source/sys_phantom.d" "source/sys_pmm.d" "source/sys_selftest.d" "source/sys_startup.d" "source/sys_vim.d" "source/system.d" 
+rm -rf "source/dabort.d" "source/sys_core.d" "source/sys_intvecs.d" "source/sys_mpu.d" "source/sys_pmu.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCAN_TX ****
+
+/home/abdelgawad/ti/ccs920/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+Building file: "../source/dabort.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/dabort.d_raw" --obj_directory="source"  "../source/dabort.asm"
+Finished building: "../source/dabort.asm"
+ 
+Building file: "../source/errata_SSWF021_45.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/errata_SSWF021_45.d_raw" --obj_directory="source"  "../source/errata_SSWF021_45.c"
+Finished building: "../source/errata_SSWF021_45.c"
+ 
+Building file: "../source/notification.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/notification.d_raw" --obj_directory="source"  "../source/notification.c"
+Finished building: "../source/notification.c"
+ 
+Building file: "../source/sys_core.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_core.d_raw" --obj_directory="source"  "../source/sys_core.asm"
+Finished building: "../source/sys_core.asm"
+ 
+Building file: "../source/esm.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/esm.d_raw" --obj_directory="source"  "../source/esm.c"
+Finished building: "../source/esm.c"
+ 
+Building file: "../source/can.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/can.d_raw" --obj_directory="source"  "../source/can.c"
+Finished building: "../source/can.c"
+ 
+Building file: "../source/sys_intvecs.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_intvecs.d_raw" --obj_directory="source"  "../source/sys_intvecs.asm"
+Finished building: "../source/sys_intvecs.asm"
+ 
+Building file: "../source/sys_mpu.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_mpu.d_raw" --obj_directory="source"  "../source/sys_mpu.asm"
+Finished building: "../source/sys_mpu.asm"
+ 
+Building file: "../source/pinmux.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/pinmux.d_raw" --obj_directory="source"  "../source/pinmux.c"
+Finished building: "../source/pinmux.c"
+ 
+Building file: "../source/sys_main.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_main.d_raw" --obj_directory="source"  "../source/sys_main.c"
+Finished building: "../source/sys_main.c"
+ 
+Building file: "../source/sys_phantom.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_phantom.d_raw" --obj_directory="source"  "../source/sys_phantom.c"
+Finished building: "../source/sys_phantom.c"
+ 
+Building file: "../source/sys_pmu.asm"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmu.d_raw" --obj_directory="source"  "../source/sys_pmu.asm"
+Finished building: "../source/sys_pmu.asm"
+ 
+Building file: "../source/sys_dma.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_dma.d_raw" --obj_directory="source"  "../source/sys_dma.c"
+Finished building: "../source/sys_dma.c"
+ 
+Building file: "../source/sys_pmm.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pmm.d_raw" --obj_directory="source"  "../source/sys_pmm.c"
+Finished building: "../source/sys_pmm.c"
+ 
+Building file: "../source/sys_pcr.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_pcr.d_raw" --obj_directory="source"  "../source/sys_pcr.c"
+Finished building: "../source/sys_pcr.c"
+ 
+Building file: "../source/sys_startup.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_startup.d_raw" --obj_directory="source"  "../source/sys_startup.c"
+Finished building: "../source/sys_startup.c"
+ 
+Building file: "../source/sys_vim.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_vim.d_raw" --obj_directory="source"  "../source/sys_vim.c"
+Finished building: "../source/sys_vim.c"
+ 
+Building file: "../source/system.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/system.d_raw" --obj_directory="source"  "../source/system.c"
+Finished building: "../source/system.c"
+ 
+Building file: "../source/sys_selftest.c"
+Invoking: ARM Compiler
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX" --include_path="/home/abdelgawad/workspace_v9/Hercules-Board-with-CAN/DCAN_TX/include" --include_path="/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi --preproc_with_compile --preproc_dependency="source/sys_selftest.d_raw" --obj_directory="source"  "../source/sys_selftest.c"
+Finished building: "../source/sys_selftest.c"
+ 
+Building target: "DCAN_TX.out"
+Invoking: ARM Linker
+"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/bin/armcl" -mv7R4 --code_state=32 --float_support=VFPv3D16 -g --diag_warning=225 --diag_wrap=off --display_error_number --enum_type=packed --abi=eabi -z -m"DCAN_TX.map" --heap_size=0x800 --stack_size=0x800 -i"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/lib" -i"/home/abdelgawad/ti/ccs920/ccs/tools/compiler/ti-cgt-arm_18.12.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="DCAN_TX_linkInfo.xml" --rom_model --be32 -o "DCAN_TX.out" "./source/can.obj" "./source/dabort.obj" "./source/errata_SSWF021_45.obj" "./source/esm.obj" "./source/notification.obj" "./source/pinmux.obj" "./source/sys_core.obj" "./source/sys_dma.obj" "./source/sys_intvecs.obj" "./source/sys_main.obj" "./source/sys_mpu.obj" "./source/sys_pcr.obj" "./source/sys_phantom.obj" "./source/sys_pmm.obj" "./source/sys_pmu.obj" "./source/sys_selftest.obj" "./source/sys_startup.obj" "./source/sys_vim.obj" "./source/system.obj" "../source/sys_link.cmd"  -lrtsv7R4_T_be_v3D16_eabi.lib 
+<Linking>
+Finished building target: "DCAN_TX.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCAN_RX ****
+
+/home/abdelgawad/ti/ccs920/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'DCAN_RX.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project DCAN_RX ****
+
+/home/abdelgawad/ti/ccs920/ccs/utils/bin/gmake -k -j 4 all -O 
+ 
+gmake[1]: 'DCAN_RX.out' is up to date.
+
+**** Build Finished ****
